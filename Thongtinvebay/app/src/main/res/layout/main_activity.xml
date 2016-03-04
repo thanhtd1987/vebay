@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="fill_parent">
     <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -42,16 +42,6 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:layout_marginBottom="5dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hãng "
-                    android:layout_marginRight="10dp"/>
-                <Spinner
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginRight="10dp"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -62,11 +52,10 @@
                         android:hint="Giá gốc "
                         android:inputType="number"
                         android:layout_marginRight="10dp"/>
-                    <TextView
+                    <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:hint="giá "
+                        android:hint="$"
                         android:layout_marginRight="10dp"/>
                 </LinearLayout>
 
@@ -75,11 +64,10 @@
                     android:layout_height="wrap_content"
                     android:text="Hạng "
                     android:layout_marginRight="10dp"/>
-                <TextView
-                    android:layout_width="40dp"
+                <EditText
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:hint="hạng "
+                    android:hint="hạng"
                     android:layout_marginRight="10dp"/>
             </LinearLayout>
             <View
@@ -327,7 +315,70 @@
                     android:hint="giá "
                     android:layout_marginRight="10dp"/>
             </LinearLayout>
-
         </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="#f9e1e1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giá vé trẻ em"
+                    android:id="@+id/textView"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trẻ em : "
+                    android:id="@+id/textView2" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:layout_weight="1"
+                    android:hint="$"
+                    android:hapticFeedbackEnabled="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=" ( = Giá xuất - 30k ) \n ( trên 12 tháng tuổi)"
+                    android:id="@+id/textView5"
+                    android:minLines="2"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
