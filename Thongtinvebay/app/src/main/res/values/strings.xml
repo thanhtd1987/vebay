@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Thong tin ve bay</string>
+    <string name="title_activity_main">Thông tin vé</string>
 </resources>
