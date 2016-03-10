@@ -24,10 +24,23 @@
             "rank": "C"
         }
     ],
-    "fees": [
-        {
-            "kid": "-30",
-            "baby": "0"
-        }
+    "fees": {
+        "kid": "-30",
+        "baby": "0",
+        "change_journey_plan":"300",
+        "change_name":"300"
+    },
+    "package":[
+      {
+        "weight":"15",
+        "price":"143"
+      },{
+        "weight":"15",
+        "price":"143"
+      },{
+        "weight":"15",
+        "price":"143"
+      }
     ]
+
 }
