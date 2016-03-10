@@ -32,4 +32,38 @@
         <item>Thượng Hải</item>
         <item>Trùng Khánh</item>
     </string-array>
+
+    <string-array name="predict_prices">
+        <item>99</item>
+        <item>149</item>
+        <item>199</item>
+        <item>299</item>
+        <item>390</item>
+        <item>399</item>
+        <item>480</item>
+        <item>580</item>
+        <item>599</item>
+        <item>660</item>
+        <item>699</item>
+        <item>750</item>
+        <item>799</item>
+        <item>840</item>
+        <item>900</item>
+        <item>930</item>
+        <item>1030</item>
+        <item>1060</item>
+        <item>1140</item>
+        <item>1190</item>
+        <item>1260</item>
+        <item>1340</item>
+        <item>1410</item>
+        <item>1490</item>
+        <item>1560</item>
+        <item>1640</item>
+        <item>1840</item>
+        <item>2040</item>
+        <item>2050</item>
+        <item>2220</item>
+        <item>2420</item>
+    </string-array>
 </resources>
