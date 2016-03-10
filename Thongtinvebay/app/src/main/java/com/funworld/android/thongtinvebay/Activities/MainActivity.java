@@ -10,7 +10,7 @@ import android.view.View;
 import com.funworld.android.thongtinvebay.R;
 
 public class MainActivity extends AppCompatActivity {
-
+    String[] mLocationArray;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
+        mLocationArray = getResources().getStringArray(R.array.locations);
     }
 
 }
