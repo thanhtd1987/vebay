@@ -91,14 +91,16 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/spinner"
                     android:layout_weight="1"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/locations"/>
 
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spinner2"
                     android:layout_weight="1"
-                    android:paddingLeft="5dp" />
+                    android:paddingLeft="5dp"
+                    android:entries="@array/locations"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -392,6 +394,114 @@
                         android:layout_marginRight="10dp" />
                 </LinearLayout>
             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical"
+            android:touchscreenBlocksFocus="true"
+            android:background="@color/bg_gray"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="#f9e1e1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Số lượng khách"
+                    android:id="@+id/textView34"
+                    android:textStyle="bold"
+                    android:gravity="left|center"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Giá Net "
+                        android:inputType="number"
+                        android:layout_marginRight="10dp"
+                        android:text="Số người lớn" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="giá "
+                        android:layout_marginRight="10dp"
+                        android:text="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Giá Net "
+                        android:inputType="number"
+                        android:layout_marginRight="10dp"
+                        android:text="Số trẻ em: " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="giá "
+                        android:layout_marginRight="10dp"
+                        android:text="0"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Giá Net "
+                        android:inputType="number"
+                        android:layout_marginRight="10dp"
+                        android:text="Số em bé: " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="giá "
+                        android:layout_marginRight="10dp"
+                        android:text="0"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -781,114 +891,6 @@
                         android:layout_height="wrap_content"
                         android:text="Phí bảo hiểm, phí quá kí hành lý"
                         android:id="@+id/textView17" />
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="5dp"
-            android:orientation="vertical"
-            android:touchscreenBlocksFocus="true"
-            android:background="@color/bg_gray"
-            android:visibility="visible">
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp"
-                android:background="#f9e1e1" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Số lượng khách"
-                    android:id="@+id/textView34"
-                    android:textStyle="bold"
-                    android:gravity="left|center"
-                    android:layout_weight="1" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:visibility="visible">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:hint="Giá Net "
-                        android:inputType="number"
-                        android:layout_marginRight="10dp"
-                        android:text="Số người lớn" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:hint="giá "
-                        android:layout_marginRight="10dp"
-                        android:text="1"
-                        android:textAlignment="center" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:hint="Giá Net "
-                        android:inputType="number"
-                        android:layout_marginRight="10dp"
-                        android:text="Số trẻ em: " />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:hint="giá "
-                        android:layout_marginRight="10dp"
-                        android:text="0"
-                        android:textAlignment="center" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:hint="Giá Net "
-                        android:inputType="number"
-                        android:layout_marginRight="10dp"
-                        android:text="Số em bé: " />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:hint="giá "
-                        android:layout_marginRight="10dp"
-                        android:text="0"
-                        android:textAlignment="center" />
                 </LinearLayout>
             </LinearLayout>
 
