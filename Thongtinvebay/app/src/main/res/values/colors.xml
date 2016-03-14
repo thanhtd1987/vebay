@@ -6,4 +6,7 @@
     <color name="bg_gray">#f1f1f1</color>
     <color name="white">#ffffff</color>
     <color name="color_text_black">#000000</color>
+    <color name="color_VNA">#0A467A</color>
+    <color name="color_VJ">#E41D22</color>
+    <color name="color_JS">#FE5815</color>
 </resources>
