@@ -16,17 +16,17 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/vj"
+                android:src="@drawable/ic_branch_vietjet"
                 android:layout_marginRight="10dp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/vj"
+                android:src="@drawable/ic_branch_vietjet"
                 android:layout_marginRight="10dp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/vj"
+                android:src="@drawable/ic_branch_vietjet"
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
 
