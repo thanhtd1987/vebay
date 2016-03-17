@@ -5,7 +5,8 @@
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp">
+        android:paddingRight="10dp"
+        android:background="@color/colorPrimaryBackground">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -68,7 +69,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/bg_gray"
+            android:background="@color/colorPrimaryBackgroundDark"
             android:layout_marginBottom="5dp"
             android:orientation="vertical"
             android:layout_marginTop="10dp">
@@ -306,7 +307,7 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/bg_gray"
+                android:background="@color/colorPrimaryBackgroundDark"
                 android:paddingBottom="5dp"
                 android:layout_marginBottom="5dp" >
 
@@ -315,7 +316,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:padding="5dp"
-                    android:background="@android:color/darker_gray"
+                    android:background="@color/colorPrimary"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp">
 
@@ -483,7 +484,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#ddf4d4"
+                android:background="@color/colorAccentLight"
                 android:layout_weight="2"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp">
@@ -543,7 +544,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/bg_gray"
+            android:background="@color/colorPrimaryBackgroundDark"
             android:layout_marginBottom="5dp"
             android:orientation="vertical"
             android:id="@+id/ll_return_layout">
@@ -778,7 +779,7 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/bg_gray"
+                android:background="@color/colorPrimaryBackgroundDark"
                 android:paddingBottom="5dp"
                 android:layout_marginBottom="5dp" >
 
@@ -787,7 +788,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:padding="5dp"
-                    android:background="@android:color/darker_gray"
+                    android:background="@color/colorPrimary"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp">
 
@@ -952,7 +953,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#ddf4d4"
+                android:background="@color/colorAccentLight"
                 android:layout_weight="2"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp">
@@ -1011,7 +1012,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/bg_gray"
+            android:background="@color/colorPrimaryBackgroundDark"
             android:layout_marginBottom="5dp"
             android:padding="5dp">
 
@@ -1111,7 +1112,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@color/bg_gray">
+                android:background="@color/colorPrimaryBackgroundDark">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1255,7 +1256,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Lam lai"
-                        android:id="@+id/button2" />
+                        android:id="@+id/button2"
+                        android:backgroundTint="#fbf6f6" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -1264,7 +1266,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/bg_gray"
+            android:background="@color/colorPrimaryBackgroundDark"
             android:paddingBottom="5dp"
             android:layout_marginBottom="5dp">
 
@@ -1273,7 +1275,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="5dp"
-                android:background="@android:color/darker_gray">
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1362,7 +1364,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/bg_gray"
+            android:background="@color/colorPrimaryBackgroundDark"
             android:paddingBottom="5dp"
             android:layout_marginBottom="5dp" >
 
@@ -1371,7 +1373,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="5dp"
-                android:background="@android:color/darker_gray" >
+                android:background="@color/colorPrimary" >
 
                 <TextView
                     android:layout_width="wrap_content"
